@@ -16,7 +16,7 @@ spec:
       workingDir: $(workspace.source.path)
       securityContext:
         runAsNonRoot: false
-        unAsUser: 0
+        runAsUser: 0
       script: |
         #!/usr/bin/env sh
         set -eu
